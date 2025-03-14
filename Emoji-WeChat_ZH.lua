@@ -5,7 +5,7 @@ if GetLocale() ~= "zhCN" then return end
 local pack = {
 	ID = "WeChat",
 	Name = "微信",
-	ShortcodePrefix = "微信",
+	ShortcodePrefix = "V信",
 	Icon = "Interface\\addOns\\Emoji-WeChat\\Icons\\icon.png",
 	IconDir = "Interface\\addOns\\Emoji-WeChat\\Icons\\",
 	Icons = {
@@ -356,223 +356,223 @@ local pack = {
 	-- ====================================================================
 	KeyToShortcode = {
 		-- emoji:WeChat_smile
-		["WeChat_smile"] = "微信·微笑",
+		["WeChat_smile"] = "V信·微笑",
 		-- emoji:WeChat_grimace
-		["WeChat_grimace"] = "微信·撇嘴",
+		["WeChat_grimace"] = "V信·撇嘴",
 		-- emoji:WeChat_drool
-		["WeChat_drool"] = "微信·色",
+		["WeChat_drool"] = "V信·色",
 		-- emoji:WeChat_scowl
-		["WeChat_scowl"] = "微信·发呆",
+		["WeChat_scowl"] = "V信·发呆",
 		-- emoji:WeChat_coolguy
-		["WeChat_coolguy"] = "微信·得意",
+		["WeChat_coolguy"] = "V信·得意",
 		-- emoji:WeChat_sob
-		["WeChat_sob"] = "微信·流泪",
+		["WeChat_sob"] = "V信·流泪",
 		-- emoji:WeChat_shy
-		["WeChat_shy"] = "微信·害羞",
+		["WeChat_shy"] = "V信·害羞",
 		-- emoji:WeChat_silent
-		["WeChat_silent"] = "微信·闭嘴",
+		["WeChat_silent"] = "V信·闭嘴",
 		-- emoji:WeChat_sleep
-		["WeChat_sleep"] = "微信·睡",
+		["WeChat_sleep"] = "V信·睡",
 		-- emoji:WeChat_cry
-		["WeChat_cry"] = "微信·大哭",
+		["WeChat_cry"] = "V信·大哭",
 		-- emoji:WeChat_awkward
-		["WeChat_awkward"] = "微信·尴尬",
+		["WeChat_awkward"] = "V信·尴尬",
 		-- emoji:WeChat_angry
-		["WeChat_angry"] = "微信·发怒",
+		["WeChat_angry"] = "V信·发怒",
 		-- emoji:WeChat_tongue
-		["WeChat_tongue"] = "微信·调皮",
+		["WeChat_tongue"] = "V信·调皮",
 		-- emoji:WeChat_grin
-		["WeChat_grin"] = "微信·龇牙",
+		["WeChat_grin"] = "V信·龇牙",
 		-- emoji:WeChat_surprise
-		["WeChat_surprise"] = "微信·惊讶",
+		["WeChat_surprise"] = "V信·惊讶",
 		-- emoji:WeChat_frown
-		["WeChat_frown"] = "微信·难过",
+		["WeChat_frown"] = "V信·难过",
 		-- emoji:WeChat_blush
-		["WeChat_blush"] = "微信·囧",
+		["WeChat_blush"] = "V信·囧",
 		-- emoji:WeChat_scream
-		["WeChat_scream"] = "微信·抓狂",
+		["WeChat_scream"] = "V信·抓狂",
 		-- emoji:WeChat_puke
-		["WeChat_puke"] = "微信·吐",
+		["WeChat_puke"] = "V信·吐",
 		-- emoji:WeChat_chuckle
-		["WeChat_chuckle"] = "微信·偷笑",
+		["WeChat_chuckle"] = "V信·偷笑",
 		-- emoji:WeChat_joyful
-		["WeChat_joyful"] = "微信·愉快",
+		["WeChat_joyful"] = "V信·愉快",
 		-- emoji:WeChat_slight
-		["WeChat_slight"] = "微信·白眼",
+		["WeChat_slight"] = "V信·白眼",
 		-- emoji:WeChat_smug
-		["WeChat_smug"] = "微信·傲慢",
+		["WeChat_smug"] = "V信·傲慢",
 		-- emoji:WeChat_drowsy
-		["WeChat_drowsy"] = "微信·困",
+		["WeChat_drowsy"] = "V信·困",
 		-- emoji:WeChat_panic
-		["WeChat_panic"] = "微信·惊恐",
+		["WeChat_panic"] = "V信·惊恐",
 		-- emoji:WeChat_laugh
-		["WeChat_laugh"] = "微信·憨笑",
+		["WeChat_laugh"] = "V信·憨笑",
 		-- emoji:WeChat_commando
-		["WeChat_commando"] = "微信·悠闲",
+		["WeChat_commando"] = "V信·悠闲",
 		-- emoji:WeChat_scold
-		["WeChat_scold"] = "微信·咒骂",
+		["WeChat_scold"] = "V信·咒骂",
 		-- emoji:WeChat_shocked
-		["WeChat_shocked"] = "微信·疑问",
+		["WeChat_shocked"] = "V信·疑问",
 		-- emoji:WeChat_shhh
-		["WeChat_shhh"] = "微信·嘘",
+		["WeChat_shhh"] = "V信·嘘",
 		-- emoji:WeChat_dizzy
-		["WeChat_dizzy"] = "微信·晕",
+		["WeChat_dizzy"] = "V信·晕",
 		-- emoji:WeChat_toasted
-		["WeChat_toasted"] = "微信·衰",
+		["WeChat_toasted"] = "V信·衰",
 		-- emoji:WeChat_skull
-		["WeChat_skull"] = "微信·骷髅",
+		["WeChat_skull"] = "V信·骷髅",
 		-- emoji:WeChat_hammer
-		["WeChat_hammer"] = "微信·敲打",
+		["WeChat_hammer"] = "V信·敲打",
 		-- emoji:WeChat_bye
-		["WeChat_bye"] = "微信·再见",
+		["WeChat_bye"] = "V信·再见",
 		-- emoji:WeChat_speechless
-		["WeChat_speechless"] = "微信·擦汗",
+		["WeChat_speechless"] = "V信·擦汗",
 		-- emoji:WeChat_nosepick
-		["WeChat_nosepick"] = "微信·抠鼻",
+		["WeChat_nosepick"] = "V信·抠鼻",
 		-- emoji:WeChat_clap
-		["WeChat_clap"] = "微信·鼓掌",
+		["WeChat_clap"] = "V信·鼓掌",
 		-- emoji:WeChat_trick
-		["WeChat_trick"] = "微信·坏笑",
+		["WeChat_trick"] = "V信·坏笑",
 		-- emoji:WeChat_bah! r
-		["WeChat_bah! r"] = "微信·右哼哼",
+		["WeChat_bah! r"] = "V信·右哼哼",
 		-- emoji:WeChat_pooh-pooh
-		["WeChat_pooh-pooh"] = "微信·鄙视",
+		["WeChat_pooh-pooh"] = "V信·鄙视",
 		-- emoji:WeChat_shrunken
-		["WeChat_shrunken"] = "微信·委屈",
+		["WeChat_shrunken"] = "V信·委屈",
 		-- emoji:WeChat_tearingup
-		["WeChat_tearingup"] = "微信·快哭了",
+		["WeChat_tearingup"] = "V信·快哭了",
 		-- emoji:WeChat_sly
-		["WeChat_sly"] = "微信·阴险",
+		["WeChat_sly"] = "V信·阴险",
 		-- emoji:WeChat_kiss
-		["WeChat_kiss"] = "微信·亲亲",
+		["WeChat_kiss"] = "V信·亲亲",
 		-- emoji:WeChat_whimper
-		["WeChat_whimper"] = "微信·可怜",
+		["WeChat_whimper"] = "V信·可怜",
 		-- emoji:WeChat_happy
-		["WeChat_happy"] = "微信·笑脸",
+		["WeChat_happy"] = "V信·笑脸",
 		-- emoji:WeChat_sick
-		["WeChat_sick"] = "微信·生病",
+		["WeChat_sick"] = "V信·生病",
 		-- emoji:WeChat_flushed
-		["WeChat_flushed"] = "微信·脸红",
+		["WeChat_flushed"] = "V信·脸红",
 		-- emoji:WeChat_lol
-		["WeChat_lol"] = "微信·破涕为笑",
+		["WeChat_lol"] = "V信·破涕为笑",
 		-- emoji:WeChat_terror
-		["WeChat_terror"] = "微信·恐惧",
+		["WeChat_terror"] = "V信·恐惧",
 		-- emoji:WeChat_letdown
-		["WeChat_letdown"] = "微信·失望",
+		["WeChat_letdown"] = "V信·失望",
 		-- emoji:WeChat_duh
-		["WeChat_duh"] = "微信·无语",
+		["WeChat_duh"] = "V信·无语",
 		-- emoji:WeChat_hey
-		["WeChat_hey"] = "微信·嘿哈",
+		["WeChat_hey"] = "V信·嘿哈",
 		-- emoji:WeChat_facepalm
-		["WeChat_facepalm"] = "微信·捂脸",
+		["WeChat_facepalm"] = "V信·捂脸",
 		-- emoji:WeChat_smirk
-		["WeChat_smirk"] = "微信·奸笑",
+		["WeChat_smirk"] = "V信·奸笑",
 		-- emoji:WeChat_smart
-		["WeChat_smart"] = "微信·机智",
+		["WeChat_smart"] = "V信·机智",
 		-- emoji:WeChat_concerned
-		["WeChat_concerned"] = "微信·皱眉",
+		["WeChat_concerned"] = "V信·皱眉",
 		-- emoji:WeChat_yeah!
-		["WeChat_yeah!"] = "微信·耶",
+		["WeChat_yeah!"] = "V信·耶",
 		-- emoji:WeChat_onlooker
-		["WeChat_onlooker"] = "微信·吃瓜",
+		["WeChat_onlooker"] = "V信·吃瓜",
 		-- emoji:WeChat_goforlt
-		["WeChat_goforlt"] = "微信·加油",
+		["WeChat_goforlt"] = "V信·加油",
 		-- emoji:WeChat_sweats
-		["WeChat_sweats"] = "微信·汗",
+		["WeChat_sweats"] = "V信·汗",
 		-- emoji:WeChat_omg
-		["WeChat_omg"] = "微信·天啊",
+		["WeChat_omg"] = "V信·天啊",
 		-- emoji:WeChat_emm
-		["WeChat_emm"] = "微信·Emm",
+		["WeChat_emm"] = "V信·Emm",
 		-- emoji:WeChat_respect
-		["WeChat_respect"] = "微信·社会社会",
+		["WeChat_respect"] = "V信·社会社会",
 		-- emoji:WeChat_doge
-		["WeChat_doge"] = "微信·旺柴",
+		["WeChat_doge"] = "V信·旺柴",
 		-- emoji:WeChat_noprob
-		["WeChat_noprob"] = "微信·好的",
+		["WeChat_noprob"] = "V信·好的",
 		-- emoji:WeChat_mybad
-		["WeChat_mybad"] = "微信·打脸",
+		["WeChat_mybad"] = "V信·打脸",
 		-- emoji:WeChat_wow
-		["WeChat_wow"] = "微信·哇",
+		["WeChat_wow"] = "V信·哇",
 		-- emoji:WeChat_boring
-		["WeChat_boring"] = "微信·翻白眼",
+		["WeChat_boring"] = "V信·翻白眼",
 		-- emoji:WeChat_666
-		["WeChat_666"] = "微信·666",
+		["WeChat_666"] = "V信·666",
 		-- emoji:WeChat_letmesee
-		["WeChat_letmesee"] = "微信·让我看看",
+		["WeChat_letmesee"] = "V信·让我看看",
 		-- emoji:WeChat_sigh
-		["WeChat_sigh"] = "微信·叹气",
+		["WeChat_sigh"] = "V信·叹气",
 		-- emoji:WeChat_hurt
-		["WeChat_hurt"] = "微信·苦涩",
+		["WeChat_hurt"] = "V信·苦涩",
 		-- emoji:WeChat_broken
-		["WeChat_broken"] = "微信·裂开",
+		["WeChat_broken"] = "V信·裂开",
 		-- emoji:WeChat_lips
-		["WeChat_lips"] = "微信·嘴唇",
+		["WeChat_lips"] = "V信·嘴唇",
 		-- emoji:WeChat_heart
-		["WeChat_heart"] = "微信·爱心",
+		["WeChat_heart"] = "V信·爱心",
 		-- emoji:WeChat_brokenheart
-		["WeChat_brokenheart"] = "微信·心碎",
+		["WeChat_brokenheart"] = "V信·心碎",
 		-- emoji:WeChat_hug
-		["WeChat_hug"] = "微信·拥抱",
+		["WeChat_hug"] = "V信·拥抱",
 		-- emoji:WeChat_thumbsup
-		["WeChat_thumbsup"] = "微信·强",
+		["WeChat_thumbsup"] = "V信·强",
 		-- emoji:WeChat_thumbsdown
-		["WeChat_thumbsdown"] = "微信·弱",
+		["WeChat_thumbsdown"] = "V信·弱",
 		-- emoji:WeChat_shake
-		["WeChat_shake"] = "微信·握手",
+		["WeChat_shake"] = "V信·握手",
 		-- emoji:WeChat_peace
-		["WeChat_peace"] = "微信·胜利",
+		["WeChat_peace"] = "V信·胜利",
 		-- emoji:WeChat_salute
-		["WeChat_salute"] = "微信·抱拳",
+		["WeChat_salute"] = "V信·抱拳",
 		-- emoji:WeChat_beckon
-		["WeChat_beckon"] = "微信·勾引",
+		["WeChat_beckon"] = "V信·勾引",
 		-- emoji:WeChat_fist
-		["WeChat_fist"] = "微信·拳头",
+		["WeChat_fist"] = "V信·拳头",
 		-- emoji:WeChat_ok
-		["WeChat_ok"] = "微信·OK",
+		["WeChat_ok"] = "V信·OK",
 		-- emoji:WeChat_worship
-		["WeChat_worship"] = "微信·合十",
+		["WeChat_worship"] = "V信·合十",
 		-- emoji:WeChat_beer
-		["WeChat_beer"] = "微信·啤酒",
+		["WeChat_beer"] = "V信·啤酒",
 		-- emoji:WeChat_coffee
-		["WeChat_coffee"] = "微信·咖啡",
+		["WeChat_coffee"] = "V信·咖啡",
 		-- emoji:WeChat_cake
-		["WeChat_cake"] = "微信·蛋糕",
+		["WeChat_cake"] = "V信·蛋糕",
 		-- emoji:WeChat_rose
-		["WeChat_rose"] = "微信·玫瑰",
+		["WeChat_rose"] = "V信·玫瑰",
 		-- emoji:WeChat_wilt
-		["WeChat_wilt"] = "微信·凋谢",
+		["WeChat_wilt"] = "V信·凋谢",
 		-- emoji:WeChat_cleaver
-		["WeChat_cleaver"] = "微信·菜刀",
+		["WeChat_cleaver"] = "V信·菜刀",
 		-- emoji:WeChat_bomb
-		["WeChat_bomb"] = "微信·炸弹",
+		["WeChat_bomb"] = "V信·炸弹",
 		-- emoji:WeChat_poop
-		["WeChat_poop"] = "微信·便便",
+		["WeChat_poop"] = "V信·便便",
 		-- emoji:WeChat_moon
-		["WeChat_moon"] = "微信·月亮",
+		["WeChat_moon"] = "V信·月亮",
 		-- emoji:WeChat_sun
-		["WeChat_sun"] = "微信·太阳",
+		["WeChat_sun"] = "V信·太阳",
 		-- emoji:WeChat_party
-		["WeChat_party"] = "微信·庆祝",
+		["WeChat_party"] = "V信·庆祝",
 		-- emoji:WeChat_gift
-		["WeChat_gift"] = "微信·礼物",
+		["WeChat_gift"] = "V信·礼物",
 		-- emoji:WeChat_packet
-		["WeChat_packet"] = "微信·红包",
+		["WeChat_packet"] = "V信·红包",
 		-- emoji:WeChat_rich
-		["WeChat_rich"] = "微信·發",
+		["WeChat_rich"] = "V信·發",
 		-- emoji:WeChat_blessing
-		["WeChat_blessing"] = "微信·福",
+		["WeChat_blessing"] = "V信·福",
 		-- emoji:WeChat_fireworks
-		["WeChat_fireworks"] = "微信·烟花",
+		["WeChat_fireworks"] = "V信·烟花",
 		-- emoji:WeChat_firecracker
-		["WeChat_firecracker"] = "微信·爆竹",
+		["WeChat_firecracker"] = "V信·爆竹",
 		-- emoji:WeChat_pig
-		["WeChat_pig"] = "微信·猪头",
+		["WeChat_pig"] = "V信·猪头",
 		-- emoji:WeChat_waddle
-		["WeChat_waddle"] = "微信·跳跳",
+		["WeChat_waddle"] = "V信·跳跳",
 		-- emoji:WeChat_tremble
-		["WeChat_tremble"] = "微信·发抖",
+		["WeChat_tremble"] = "V信·发抖",
 		-- emoji:WeChat_twirl
-		["WeChat_twirl"] = "微信·转圈",
+		["WeChat_twirl"] = "V信·转圈",
 	},
 
 	-- ====================================================================
@@ -580,353 +580,353 @@ local pack = {
 	-- ====================================================================
 	ShortcodesToKey = {
 		-- emoji:WeChat_smile
-		["微信·微笑"] = "WeChat_smile",
+		["V信·微笑"] = "WeChat_smile",
 		-- emoji:WeChat_grimace
-		["微信·撇嘴"] = "WeChat_grimace",
+		["V信·撇嘴"] = "WeChat_grimace",
 		-- emoji:WeChat_drool
-		["微信·色"] = "WeChat_drool",
+		["V信·色"] = "WeChat_drool",
 		-- emoji:WeChat_scowl
-		["微信·发呆"] = "WeChat_scowl",
+		["V信·发呆"] = "WeChat_scowl",
 		-- emoji:WeChat_coolguy
-		["微信·得意"] = "WeChat_coolguy",
-		["微信·叉腰"] = "WeChat_coolguy",
+		["V信·得意"] = "WeChat_coolguy",
+		["V信·叉腰"] = "WeChat_coolguy",
 		-- emoji:WeChat_sob
-		["微信·流泪"] = "WeChat_sob",
+		["V信·流泪"] = "WeChat_sob",
 		-- emoji:WeChat_shy
-		["微信·害羞"] = "WeChat_shy",
+		["V信·害羞"] = "WeChat_shy",
 		-- emoji:WeChat_silent
-		["微信·闭嘴"] = "WeChat_silent",
+		["V信·闭嘴"] = "WeChat_silent",
 		-- emoji:WeChat_sleep
-		["微信·睡"] = "WeChat_sleep",
-		["微信·zzz"] = "WeChat_sleep",
+		["V信·睡"] = "WeChat_sleep",
+		["V信·zzz"] = "WeChat_sleep",
 		-- emoji:WeChat_cry
-		["微信·大哭"] = "WeChat_cry",
+		["V信·大哭"] = "WeChat_cry",
 		-- emoji:WeChat_awkward
-		["微信·尴尬"] = "WeChat_awkward",
+		["V信·尴尬"] = "WeChat_awkward",
 		-- emoji:WeChat_angry
-		["微信·发怒"] = "WeChat_angry",
+		["V信·发怒"] = "WeChat_angry",
 		-- emoji:WeChat_tongue
-		["微信·调皮"] = "WeChat_tongue",
+		["V信·调皮"] = "WeChat_tongue",
 		-- emoji:WeChat_grin
-		["微信·龇牙"] = "WeChat_grin",
+		["V信·龇牙"] = "WeChat_grin",
 		-- emoji:WeChat_surprise
-		["微信·惊讶"] = "WeChat_surprise",
+		["V信·惊讶"] = "WeChat_surprise",
 		-- emoji:WeChat_frown
-		["微信·难过"] = "WeChat_frown",
+		["V信·难过"] = "WeChat_frown",
 		-- emoji:WeChat_blush
-		["微信·囧"] = "WeChat_blush",
+		["V信·囧"] = "WeChat_blush",
 		-- emoji:WeChat_scream
-		["微信·抓狂"] = "WeChat_scream",
+		["V信·抓狂"] = "WeChat_scream",
 		-- emoji:WeChat_puke
-		["微信·吐"] = "WeChat_puke",
+		["V信·吐"] = "WeChat_puke",
 		-- emoji:WeChat_chuckle
-		["微信·偷笑"] = "WeChat_chuckle",
+		["V信·偷笑"] = "WeChat_chuckle",
 		-- emoji:WeChat_joyful
-		["微信·愉快"] = "WeChat_joyful",
+		["V信·愉快"] = "WeChat_joyful",
 		-- emoji:WeChat_slight
-		["微信·白眼"] = "WeChat_slight",
+		["V信·白眼"] = "WeChat_slight",
 		-- emoji:WeChat_smug
-		["微信·傲慢"] = "WeChat_smug",
+		["V信·傲慢"] = "WeChat_smug",
 		-- emoji:WeChat_drowsy
-		["微信·困"] = "WeChat_drowsy",
+		["V信·困"] = "WeChat_drowsy",
 		-- emoji:WeChat_panic
-		["微信·惊恐"] = "WeChat_panic",
+		["V信·惊恐"] = "WeChat_panic",
 		-- emoji:WeChat_laugh
-		["微信·憨笑"] = "WeChat_laugh",
+		["V信·憨笑"] = "WeChat_laugh",
 		-- emoji:WeChat_commando
-		["微信·悠闲"] = "WeChat_commando",
+		["V信·悠闲"] = "WeChat_commando",
 		-- emoji:WeChat_scold
-		["微信·咒骂"] = "WeChat_scold",
+		["V信·咒骂"] = "WeChat_scold",
 		-- emoji:WeChat_shocked
-		["微信·疑问"] = "WeChat_shocked",
+		["V信·疑问"] = "WeChat_shocked",
 		-- emoji:WeChat_shhh
-		["微信·嘘"] = "WeChat_shhh",
-		["微信·别说话"] = "WeChat_shhh",
+		["V信·嘘"] = "WeChat_shhh",
+		["V信·别说话"] = "WeChat_shhh",
 		-- emoji:WeChat_dizzy
-		["微信·晕"] = "WeChat_dizzy",
+		["V信·晕"] = "WeChat_dizzy",
 		-- emoji:WeChat_toasted
-		["微信·衰"] = "WeChat_toasted",
+		["V信·衰"] = "WeChat_toasted",
 		-- emoji:WeChat_skull
-		["微信·骷髅"] = "WeChat_skull",
+		["V信·骷髅"] = "WeChat_skull",
 		-- emoji:WeChat_hammer
-		["微信·敲打"] = "WeChat_hammer",
-		["微信·敲你狗头"] = "WeChat_hammer",
+		["V信·敲打"] = "WeChat_hammer",
+		["V信·敲你狗头"] = "WeChat_hammer",
 		-- emoji:WeChat_bye
-		["微信·再见"] = "WeChat_bye",
+		["V信·再见"] = "WeChat_bye",
 		-- emoji:WeChat_speechless
-		["微信·擦汗"] = "WeChat_speechless",
+		["V信·擦汗"] = "WeChat_speechless",
 		-- emoji:WeChat_nosepick
-		["微信·抠鼻"] = "WeChat_nosepick",
+		["V信·抠鼻"] = "WeChat_nosepick",
 		-- emoji:WeChat_clap
-		["微信·鼓掌"] = "WeChat_clap",
+		["V信·鼓掌"] = "WeChat_clap",
 		-- emoji:WeChat_trick
-		["微信·坏笑"] = "WeChat_trick",
+		["V信·坏笑"] = "WeChat_trick",
 		-- emoji:WeChat_bah! r
-		["微信·右哼哼"] = "WeChat_bah! r",
+		["V信·右哼哼"] = "WeChat_bah! r",
 		-- emoji:WeChat_pooh-pooh
-		["微信·鄙视"] = "WeChat_pooh-pooh",
+		["V信·鄙视"] = "WeChat_pooh-pooh",
 		-- emoji:WeChat_shrunken
-		["微信·委屈"] = "WeChat_shrunken",
+		["V信·委屈"] = "WeChat_shrunken",
 		-- emoji:WeChat_tearingup
-		["微信·快哭了"] = "WeChat_tearingup",
+		["V信·快哭了"] = "WeChat_tearingup",
 		-- emoji:WeChat_sly
-		["微信·阴险"] = "WeChat_sly",
+		["V信·阴险"] = "WeChat_sly",
 		-- emoji:WeChat_kiss
-		["微信·亲亲"] = "WeChat_kiss",
+		["V信·亲亲"] = "WeChat_kiss",
 		-- emoji:WeChat_whimper
-		["微信·可怜"] = "WeChat_whimper",
+		["V信·可怜"] = "WeChat_whimper",
 		-- emoji:WeChat_happy
-		["微信·笑脸"] = "WeChat_happy",
+		["V信·笑脸"] = "WeChat_happy",
 		-- emoji:WeChat_sick
-		["微信·生病"] = "WeChat_sick",
+		["V信·生病"] = "WeChat_sick",
 		-- emoji:WeChat_flushed
-		["微信·脸红"] = "WeChat_flushed",
+		["V信·脸红"] = "WeChat_flushed",
 		-- emoji:WeChat_lol
-		["微信·破涕为笑"] = "WeChat_lol",
+		["V信·破涕为笑"] = "WeChat_lol",
 		-- emoji:WeChat_terror
-		["微信·恐惧"] = "WeChat_terror",
+		["V信·恐惧"] = "WeChat_terror",
 		-- emoji:WeChat_letdown
-		["微信·失望"] = "WeChat_letdown",
+		["V信·失望"] = "WeChat_letdown",
 		-- emoji:WeChat_duh
-		["微信·无语"] = "WeChat_duh",
+		["V信·无语"] = "WeChat_duh",
 		-- emoji:WeChat_hey
-		["微信·嘿哈"] = "WeChat_hey",
+		["V信·嘿哈"] = "WeChat_hey",
 		-- emoji:WeChat_facepalm
-		["微信·捂脸"] = "WeChat_facepalm",
+		["V信·捂脸"] = "WeChat_facepalm",
 		-- emoji:WeChat_smirk
-		["微信·奸笑"] = "WeChat_smirk",
+		["V信·奸笑"] = "WeChat_smirk",
 		-- emoji:WeChat_smart
-		["微信·机智"] = "WeChat_smart",
+		["V信·机智"] = "WeChat_smart",
 		-- emoji:WeChat_concerned
-		["微信·皱眉"] = "WeChat_concerned",
+		["V信·皱眉"] = "WeChat_concerned",
 		-- emoji:WeChat_yeah!
-		["微信·耶"] = "WeChat_yeah!",
+		["V信·耶"] = "WeChat_yeah!",
 		-- emoji:WeChat_onlooker
-		["微信·吃瓜"] = "WeChat_onlooker",
+		["V信·吃瓜"] = "WeChat_onlooker",
 		-- emoji:WeChat_goforlt
-		["微信·加油"] = "WeChat_goforlt",
+		["V信·加油"] = "WeChat_goforlt",
 		-- emoji:WeChat_sweats
-		["微信·汗"] = "WeChat_sweats",
+		["V信·汗"] = "WeChat_sweats",
 		-- emoji:WeChat_omg
-		["微信·天啊"] = "WeChat_omg",
+		["V信·天啊"] = "WeChat_omg",
 		-- emoji:WeChat_emm
-		["微信·Emm"] = "WeChat_emm",
+		["V信·Emm"] = "WeChat_emm",
 		-- emoji:WeChat_respect
-		["微信·社会社会"] = "WeChat_respect",
+		["V信·社会社会"] = "WeChat_respect",
 		-- emoji:WeChat_doge
-		["微信·旺柴"] = "WeChat_doge",
+		["V信·旺柴"] = "WeChat_doge",
 		-- emoji:WeChat_noprob
-		["微信·好的"] = "WeChat_noprob",
+		["V信·好的"] = "WeChat_noprob",
 		-- emoji:WeChat_mybad
-		["微信·打脸"] = "WeChat_mybad",
+		["V信·打脸"] = "WeChat_mybad",
 		-- emoji:WeChat_wow
-		["微信·哇"] = "WeChat_wow",
+		["V信·哇"] = "WeChat_wow",
 		-- emoji:WeChat_boring
-		["微信·翻白眼"] = "WeChat_boring",
+		["V信·翻白眼"] = "WeChat_boring",
 		-- emoji:WeChat_666
-		["微信·666"] = "WeChat_666",
+		["V信·666"] = "WeChat_666",
 		-- emoji:WeChat_letmesee
-		["微信·让我看看"] = "WeChat_letmesee",
+		["V信·让我看看"] = "WeChat_letmesee",
 		-- emoji:WeChat_sigh
-		["微信·叹气"] = "WeChat_sigh",
+		["V信·叹气"] = "WeChat_sigh",
 		-- emoji:WeChat_hurt
-		["微信·苦涩"] = "WeChat_hurt",
+		["V信·苦涩"] = "WeChat_hurt",
 		-- emoji:WeChat_broken
-		["微信·裂开"] = "WeChat_broken",
+		["V信·裂开"] = "WeChat_broken",
 		-- emoji:WeChat_lips
-		["微信·嘴唇"] = "WeChat_lips",
+		["V信·嘴唇"] = "WeChat_lips",
 		-- emoji:WeChat_heart
-		["微信·爱心"] = "WeChat_heart",
+		["V信·爱心"] = "WeChat_heart",
 		-- emoji:WeChat_brokenheart
-		["微信·心碎"] = "WeChat_brokenheart",
+		["V信·心碎"] = "WeChat_brokenheart",
 		-- emoji:WeChat_hug
-		["微信·拥抱"] = "WeChat_hug",
+		["V信·拥抱"] = "WeChat_hug",
 		-- emoji:WeChat_thumbsup
-		["微信·强"] = "WeChat_thumbsup",
+		["V信·强"] = "WeChat_thumbsup",
 		-- emoji:WeChat_thumbsdown
-		["微信·弱"] = "WeChat_thumbsdown",
+		["V信·弱"] = "WeChat_thumbsdown",
 		-- emoji:WeChat_shake
-		["微信·握手"] = "WeChat_shake",
+		["V信·握手"] = "WeChat_shake",
 		-- emoji:WeChat_peace
-		["微信·胜利"] = "WeChat_peace",
+		["V信·胜利"] = "WeChat_peace",
 		-- emoji:WeChat_salute
-		["微信·抱拳"] = "WeChat_salute",
+		["V信·抱拳"] = "WeChat_salute",
 		-- emoji:WeChat_beckon
-		["微信·勾引"] = "WeChat_beckon",
+		["V信·勾引"] = "WeChat_beckon",
 		-- emoji:WeChat_fist
-		["微信·拳头"] = "WeChat_fist",
+		["V信·拳头"] = "WeChat_fist",
 		-- emoji:WeChat_ok
-		["微信·OK"] = "WeChat_ok",
+		["V信·OK"] = "WeChat_ok",
 		-- emoji:WeChat_worship
-		["微信·合十"] = "WeChat_worship",
+		["V信·合十"] = "WeChat_worship",
 		-- emoji:WeChat_beer
-		["微信·啤酒"] = "WeChat_beer",
+		["V信·啤酒"] = "WeChat_beer",
 		-- emoji:WeChat_coffee
-		["微信·咖啡"] = "WeChat_coffee",
+		["V信·咖啡"] = "WeChat_coffee",
 		-- emoji:WeChat_cake
-		["微信·蛋糕"] = "WeChat_cake",
+		["V信·蛋糕"] = "WeChat_cake",
 		-- emoji:WeChat_rose
-		["微信·玫瑰"] = "WeChat_rose",
+		["V信·玫瑰"] = "WeChat_rose",
 		-- emoji:WeChat_wilt
-		["微信·凋谢"] = "WeChat_wilt",
+		["V信·凋谢"] = "WeChat_wilt",
 		-- emoji:WeChat_cleaver
-		["微信·菜刀"] = "WeChat_cleaver",
+		["V信·菜刀"] = "WeChat_cleaver",
 		-- emoji:WeChat_bomb
-		["微信·炸弹"] = "WeChat_bomb",
+		["V信·炸弹"] = "WeChat_bomb",
 		-- emoji:WeChat_poop
-		["微信·便便"] = "WeChat_poop",
+		["V信·便便"] = "WeChat_poop",
 		-- emoji:WeChat_moon
-		["微信·月亮"] = "WeChat_moon",
+		["V信·月亮"] = "WeChat_moon",
 		-- emoji:WeChat_sun
-		["微信·太阳"] = "WeChat_sun",
+		["V信·太阳"] = "WeChat_sun",
 		-- emoji:WeChat_party
-		["微信·庆祝"] = "WeChat_party",
+		["V信·庆祝"] = "WeChat_party",
 		-- emoji:WeChat_gift
-		["微信·礼物"] = "WeChat_gift",
+		["V信·礼物"] = "WeChat_gift",
 		-- emoji:WeChat_packet
-		["微信·红包"] = "WeChat_packet",
+		["V信·红包"] = "WeChat_packet",
 		-- emoji:WeChat_rich
-		["微信·發"] = "WeChat_rich",
+		["V信·發"] = "WeChat_rich",
 		-- emoji:WeChat_blessing
-		["微信·福"] = "WeChat_blessing",
+		["V信·福"] = "WeChat_blessing",
 		-- emoji:WeChat_fireworks
-		["微信·烟花"] = "WeChat_fireworks",
+		["V信·烟花"] = "WeChat_fireworks",
 		-- emoji:WeChat_firecracker
-		["微信·爆竹"] = "WeChat_firecracker",
+		["V信·爆竹"] = "WeChat_firecracker",
 		-- emoji:WeChat_pig
-		["微信·猪头"] = "WeChat_pig",
+		["V信·猪头"] = "WeChat_pig",
 		-- emoji:WeChat_waddle
-		["微信·跳跳"] = "WeChat_waddle",
+		["V信·跳跳"] = "WeChat_waddle",
 		-- emoji:WeChat_tremble
-		["微信·发抖"] = "WeChat_tremble",
+		["V信·发抖"] = "WeChat_tremble",
 		-- emoji:WeChat_twirl
-		["微信·转圈"] = "WeChat_twirl",
+		["V信·转圈"] = "WeChat_twirl",
 	},
 
 	-- ====================================================================
 	-- ========================= short code list ==========================
 	-- ====================================================================
 	ShortcodeList = {
-		"微信·微笑",
-		"微信·撇嘴",
-		"微信·色",
-		"微信·发呆",
-		"微信·得意",
-		"微信·叉腰",
-		"微信·流泪",
-		"微信·害羞",
-		"微信·闭嘴",
-		"微信·睡",
-		"微信·zzz",
-		"微信·大哭",
-		"微信·尴尬",
-		"微信·发怒",
-		"微信·调皮",
-		"微信·龇牙",
-		"微信·惊讶",
-		"微信·难过",
-		"微信·囧",
-		"微信·抓狂",
-		"微信·吐",
-		"微信·偷笑",
-		"微信·愉快",
-		"微信·白眼",
-		"微信·傲慢",
-		"微信·困",
-		"微信·惊恐",
-		"微信·憨笑",
-		"微信·悠闲",
-		"微信·咒骂",
-		"微信·疑问",
-		"微信·嘘",
-		"微信·别说话",
-		"微信·晕",
-		"微信·衰",
-		"微信·骷髅",
-		"微信·敲打",
-		"微信·敲你狗头",
-		"微信·再见",
-		"微信·擦汗",
-		"微信·抠鼻",
-		"微信·鼓掌",
-		"微信·坏笑",
-		"微信·右哼哼",
-		"微信·鄙视",
-		"微信·委屈",
-		"微信·快哭了",
-		"微信·阴险",
-		"微信·亲亲",
-		"微信·可怜",
-		"微信·笑脸",
-		"微信·生病",
-		"微信·脸红",
-		"微信·破涕为笑",
-		"微信·恐惧",
-		"微信·失望",
-		"微信·无语",
-		"微信·嘿哈",
-		"微信·捂脸",
-		"微信·奸笑",
-		"微信·机智",
-		"微信·皱眉",
-		"微信·耶",
-		"微信·吃瓜",
-		"微信·加油",
-		"微信·汗",
-		"微信·天啊",
-		"微信·Emm",
-		"微信·社会社会",
-		"微信·旺柴",
-		"微信·好的",
-		"微信·打脸",
-		"微信·哇",
-		"微信·翻白眼",
-		"微信·666",
-		"微信·让我看看",
-		"微信·叹气",
-		"微信·苦涩",
-		"微信·裂开",
-		"微信·嘴唇",
-		"微信·爱心",
-		"微信·心碎",
-		"微信·拥抱",
-		"微信·强",
-		"微信·弱",
-		"微信·握手",
-		"微信·胜利",
-		"微信·抱拳",
-		"微信·勾引",
-		"微信·拳头",
-		"微信·OK",
-		"微信·合十",
-		"微信·啤酒",
-		"微信·咖啡",
-		"微信·蛋糕",
-		"微信·玫瑰",
-		"微信·凋谢",
-		"微信·菜刀",
-		"微信·炸弹",
-		"微信·便便",
-		"微信·月亮",
-		"微信·太阳",
-		"微信·庆祝",
-		"微信·礼物",
-		"微信·红包",
-		"微信·發",
-		"微信·福",
-		"微信·烟花",
-		"微信·爆竹",
-		"微信·猪头",
-		"微信·跳跳",
-		"微信·发抖",
-		"微信·转圈",
+		"V信·微笑",
+		"V信·撇嘴",
+		"V信·色",
+		"V信·发呆",
+		"V信·得意",
+		"V信·叉腰",
+		"V信·流泪",
+		"V信·害羞",
+		"V信·闭嘴",
+		"V信·睡",
+		"V信·zzz",
+		"V信·大哭",
+		"V信·尴尬",
+		"V信·发怒",
+		"V信·调皮",
+		"V信·龇牙",
+		"V信·惊讶",
+		"V信·难过",
+		"V信·囧",
+		"V信·抓狂",
+		"V信·吐",
+		"V信·偷笑",
+		"V信·愉快",
+		"V信·白眼",
+		"V信·傲慢",
+		"V信·困",
+		"V信·惊恐",
+		"V信·憨笑",
+		"V信·悠闲",
+		"V信·咒骂",
+		"V信·疑问",
+		"V信·嘘",
+		"V信·别说话",
+		"V信·晕",
+		"V信·衰",
+		"V信·骷髅",
+		"V信·敲打",
+		"V信·敲你狗头",
+		"V信·再见",
+		"V信·擦汗",
+		"V信·抠鼻",
+		"V信·鼓掌",
+		"V信·坏笑",
+		"V信·右哼哼",
+		"V信·鄙视",
+		"V信·委屈",
+		"V信·快哭了",
+		"V信·阴险",
+		"V信·亲亲",
+		"V信·可怜",
+		"V信·笑脸",
+		"V信·生病",
+		"V信·脸红",
+		"V信·破涕为笑",
+		"V信·恐惧",
+		"V信·失望",
+		"V信·无语",
+		"V信·嘿哈",
+		"V信·捂脸",
+		"V信·奸笑",
+		"V信·机智",
+		"V信·皱眉",
+		"V信·耶",
+		"V信·吃瓜",
+		"V信·加油",
+		"V信·汗",
+		"V信·天啊",
+		"V信·Emm",
+		"V信·社会社会",
+		"V信·旺柴",
+		"V信·好的",
+		"V信·打脸",
+		"V信·哇",
+		"V信·翻白眼",
+		"V信·666",
+		"V信·让我看看",
+		"V信·叹气",
+		"V信·苦涩",
+		"V信·裂开",
+		"V信·嘴唇",
+		"V信·爱心",
+		"V信·心碎",
+		"V信·拥抱",
+		"V信·强",
+		"V信·弱",
+		"V信·握手",
+		"V信·胜利",
+		"V信·抱拳",
+		"V信·勾引",
+		"V信·拳头",
+		"V信·OK",
+		"V信·合十",
+		"V信·啤酒",
+		"V信·咖啡",
+		"V信·蛋糕",
+		"V信·玫瑰",
+		"V信·凋谢",
+		"V信·菜刀",
+		"V信·炸弹",
+		"V信·便便",
+		"V信·月亮",
+		"V信·太阳",
+		"V信·庆祝",
+		"V信·礼物",
+		"V信·红包",
+		"V信·發",
+		"V信·福",
+		"V信·烟花",
+		"V信·爆竹",
+		"V信·猪头",
+		"V信·跳跳",
+		"V信·发抖",
+		"V信·转圈",
 		ShortcodeCount = 113,
 	},
 
 	["WeChat_smile"] = {
 		Name = "微笑",
 		Shortcodes = {
-			"微信·微笑",
+			"V信·微笑",
 		},
 		Keywords = {
 			"微笑",
@@ -942,7 +942,7 @@ local pack = {
 	["WeChat_grimace"] = {
 		Name = "撇嘴",
 		Shortcodes = {
-			"微信·撇嘴",
+			"V信·撇嘴",
 		},
 		Keywords = {
 			"撅嘴",
@@ -953,13 +953,13 @@ local pack = {
 	["WeChat_drool"] = {
 		Name = "色",
 		Shortcodes = {
-			"微信·色",
+			"V信·色",
 		},
 	},
 	["WeChat_scowl"] = {
 		Name = "发呆",
 		Shortcodes = {
-			"微信·发呆",
+			"V信·发呆",
 		},
 		Keywords = {
 			"发呆",
@@ -975,14 +975,14 @@ local pack = {
 	["WeChat_coolguy"] = {
 		Name = "得意",
 		Shortcodes = {
-			"微信·得意",
-			"微信·叉腰",
+			"V信·得意",
+			"V信·叉腰",
 		},
 	},
 	["WeChat_sob"] = {
 		Name = "流泪",
 		Shortcodes = {
-			"微信·流泪",
+			"V信·流泪",
 		},
 		Keywords = {
 			"流泪",
@@ -997,7 +997,7 @@ local pack = {
 	["WeChat_shy"] = {
 		Name = "害羞",
 		Shortcodes = {
-			"微信·害羞",
+			"V信·害羞",
 		},
 		Keywords = {
 			"羞死人了",
@@ -1006,7 +1006,7 @@ local pack = {
 	["WeChat_silent"] = {
 		Name = "闭嘴",
 		Shortcodes = {
-			"微信·闭嘴",
+			"V信·闭嘴",
 		},
 		Keywords = {
 			"住口",
@@ -1015,8 +1015,8 @@ local pack = {
 	["WeChat_sleep"] = {
 		Name = "睡",
 		Shortcodes = {
-			"微信·睡",
-			"微信·zzz",
+			"V信·睡",
+			"V信·zzz",
 		},
 		Keywords = {
 			"zzzzzzzz",
@@ -1025,19 +1025,19 @@ local pack = {
 	["WeChat_cry"] = {
 		Name = "大哭",
 		Shortcodes = {
-			"微信·大哭",
+			"V信·大哭",
 		},
 	},
 	["WeChat_awkward"] = {
 		Name = "尴尬",
 		Shortcodes = {
-			"微信·尴尬",
+			"V信·尴尬",
 		},
 	},
 	["WeChat_angry"] = {
 		Name = "发怒",
 		Shortcodes = {
-			"微信·发怒",
+			"V信·发怒",
 		},
 		Keywords = {
 			"动火",
@@ -1053,7 +1053,7 @@ local pack = {
 	["WeChat_tongue"] = {
 		Name = "调皮",
 		Shortcodes = {
-			"微信·调皮",
+			"V信·调皮",
 		},
 		Keywords = {
 			"古灵精怪",
@@ -1063,37 +1063,37 @@ local pack = {
 	["WeChat_grin"] = {
 		Name = "龇牙",
 		Shortcodes = {
-			"微信·龇牙",
+			"V信·龇牙",
 		},
 	},
 	["WeChat_surprise"] = {
 		Name = "惊讶",
 		Shortcodes = {
-			"微信·惊讶",
+			"V信·惊讶",
 		},
 	},
 	["WeChat_frown"] = {
 		Name = "难过",
 		Shortcodes = {
-			"微信·难过",
+			"V信·难过",
 		},
 	},
 	["WeChat_blush"] = {
 		Name = "囧",
 		Shortcodes = {
-			"微信·囧",
+			"V信·囧",
 		},
 	},
 	["WeChat_scream"] = {
 		Name = "抓狂",
 		Shortcodes = {
-			"微信·抓狂",
+			"V信·抓狂",
 		},
 	},
 	["WeChat_puke"] = {
 		Name = "吐",
 		Shortcodes = {
-			"微信·吐",
+			"V信·吐",
 		},
 		Keywords = {
 			"呸",
@@ -1104,43 +1104,43 @@ local pack = {
 	["WeChat_chuckle"] = {
 		Name = "偷笑",
 		Shortcodes = {
-			"微信·偷笑",
+			"V信·偷笑",
 		},
 	},
 	["WeChat_joyful"] = {
 		Name = "愉快",
 		Shortcodes = {
-			"微信·愉快",
+			"V信·愉快",
 		},
 	},
 	["WeChat_slight"] = {
 		Name = "白眼",
 		Shortcodes = {
-			"微信·白眼",
+			"V信·白眼",
 		},
 	},
 	["WeChat_smug"] = {
 		Name = "傲慢",
 		Shortcodes = {
-			"微信·傲慢",
+			"V信·傲慢",
 		},
 	},
 	["WeChat_drowsy"] = {
 		Name = "困",
 		Shortcodes = {
-			"微信·困",
+			"V信·困",
 		},
 	},
 	["WeChat_panic"] = {
 		Name = "惊恐",
 		Shortcodes = {
-			"微信·惊恐",
+			"V信·惊恐",
 		},
 	},
 	["WeChat_laugh"] = {
 		Name = "憨笑",
 		Shortcodes = {
-			"微信·憨笑",
+			"V信·憨笑",
 		},
 		Keywords = {
 			"憨笑",
@@ -1152,13 +1152,13 @@ local pack = {
 	["WeChat_commando"] = {
 		Name = "悠闲",
 		Shortcodes = {
-			"微信·悠闲",
+			"V信·悠闲",
 		},
 	},
 	["WeChat_scold"] = {
 		Name = "咒骂",
 		Shortcodes = {
-			"微信·咒骂",
+			"V信·咒骂",
 		},
 		Keywords = {
 			"咒骂",
@@ -1168,7 +1168,7 @@ local pack = {
 	["WeChat_shocked"] = {
 		Name = "疑问",
 		Shortcodes = {
-			"微信·疑问",
+			"V信·疑问",
 		},
 		Keywords = {
 			"疑问",
@@ -1184,26 +1184,26 @@ local pack = {
 	["WeChat_shhh"] = {
 		Name = "嘘",
 		Shortcodes = {
-			"微信·嘘",
-			"微信·别说话",
+			"V信·嘘",
+			"V信·别说话",
 		},
 	},
 	["WeChat_dizzy"] = {
 		Name = "晕",
 		Shortcodes = {
-			"微信·晕",
+			"V信·晕",
 		},
 	},
 	["WeChat_toasted"] = {
 		Name = "衰",
 		Shortcodes = {
-			"微信·衰",
+			"V信·衰",
 		},
 	},
 	["WeChat_skull"] = {
 		Name = "骷髅",
 		Shortcodes = {
-			"微信·骷髅",
+			"V信·骷髅",
 		},
 		Keywords = {
 			"尸骨",
@@ -1219,8 +1219,8 @@ local pack = {
 	["WeChat_hammer"] = {
 		Name = "敲打",
 		Shortcodes = {
-			"微信·敲打",
-			"微信·敲你狗头",
+			"V信·敲打",
+			"V信·敲你狗头",
 		},
 		Keywords = {
 			"敲打",
@@ -1235,7 +1235,7 @@ local pack = {
 	["WeChat_bye"] = {
 		Name = "再见",
 		Shortcodes = {
-			"微信·再见",
+			"V信·再见",
 		},
 		Keywords = {
 			"再见",
@@ -1246,19 +1246,19 @@ local pack = {
 	["WeChat_speechless"] = {
 		Name = "擦汗",
 		Shortcodes = {
-			"微信·擦汗",
+			"V信·擦汗",
 		},
 	},
 	["WeChat_nosepick"] = {
 		Name = "抠鼻",
 		Shortcodes = {
-			"微信·抠鼻",
+			"V信·抠鼻",
 		},
 	},
 	["WeChat_clap"] = {
 		Name = "鼓掌",
 		Shortcodes = {
-			"微信·鼓掌",
+			"V信·鼓掌",
 		},
 		Keywords = {
 			"拍手",
@@ -1272,13 +1272,13 @@ local pack = {
 	["WeChat_trick"] = {
 		Name = "坏笑",
 		Shortcodes = {
-			"微信·坏笑",
+			"V信·坏笑",
 		},
 	},
 	["WeChat_bah! r"] = {
 		Name = "右哼哼",
 		Shortcodes = {
-			"微信·右哼哼",
+			"V信·右哼哼",
 		},
 		Keywords = {
 			"哼哼",
@@ -1288,7 +1288,7 @@ local pack = {
 	["WeChat_pooh-pooh"] = {
 		Name = "鄙视",
 		Shortcodes = {
-			"微信·鄙视",
+			"V信·鄙视",
 		},
 		Keywords = {
 			"鄙视",
@@ -1304,19 +1304,19 @@ local pack = {
 	["WeChat_shrunken"] = {
 		Name = "委屈",
 		Shortcodes = {
-			"微信·委屈",
+			"V信·委屈",
 		},
 	},
 	["WeChat_tearingup"] = {
 		Name = "快哭了",
 		Shortcodes = {
-			"微信·快哭了",
+			"V信·快哭了",
 		},
 	},
 	["WeChat_sly"] = {
 		Name = "阴险",
 		Shortcodes = {
-			"微信·阴险",
+			"V信·阴险",
 		},
 		Keywords = {
 			"阴险",
@@ -1329,7 +1329,7 @@ local pack = {
 	["WeChat_kiss"] = {
 		Name = "亲亲",
 		Shortcodes = {
-			"微信·亲亲",
+			"V信·亲亲",
 		},
 		Keywords = {
 			"亲密",
@@ -1345,13 +1345,13 @@ local pack = {
 	["WeChat_whimper"] = {
 		Name = "可怜",
 		Shortcodes = {
-			"微信·可怜",
+			"V信·可怜",
 		},
 	},
 	["WeChat_happy"] = {
 		Name = "笑脸",
 		Shortcodes = {
-			"微信·笑脸",
+			"V信·笑脸",
 		},
 		Keywords = {
 			"笑容",
@@ -1365,7 +1365,7 @@ local pack = {
 	["WeChat_sick"] = {
 		Name = "生病",
 		Shortcodes = {
-			"微信·生病",
+			"V信·生病",
 		},
 		Keywords = {
 			"生病",
@@ -1381,7 +1381,7 @@ local pack = {
 	["WeChat_flushed"] = {
 		Name = "脸红",
 		Shortcodes = {
-			"微信·脸红",
+			"V信·脸红",
 		},
 		Keywords = {
 			"红脸",
@@ -1396,7 +1396,7 @@ local pack = {
 	["WeChat_lol"] = {
 		Name = "破涕为笑",
 		Shortcodes = {
-			"微信·破涕为笑",
+			"V信·破涕为笑",
 		},
 		Keywords = {
 			"冷笑",
@@ -1410,7 +1410,7 @@ local pack = {
 	["WeChat_terror"] = {
 		Name = "恐惧",
 		Shortcodes = {
-			"微信·恐惧",
+			"V信·恐惧",
 		},
 		Keywords = {
 			"害怕",
@@ -1426,31 +1426,31 @@ local pack = {
 	["WeChat_letdown"] = {
 		Name = "失望",
 		Shortcodes = {
-			"微信·失望",
+			"V信·失望",
 		},
 	},
 	["WeChat_duh"] = {
 		Name = "无语",
 		Shortcodes = {
-			"微信·无语",
+			"V信·无语",
 		},
 	},
 	["WeChat_hey"] = {
 		Name = "嘿哈",
 		Shortcodes = {
-			"微信·嘿哈",
+			"V信·嘿哈",
 		},
 	},
 	["WeChat_facepalm"] = {
 		Name = "捂脸",
 		Shortcodes = {
-			"微信·捂脸",
+			"V信·捂脸",
 		},
 	},
 	["WeChat_smirk"] = {
 		Name = "奸笑",
 		Shortcodes = {
-			"微信·奸笑",
+			"V信·奸笑",
 		},
 		Keywords = {
 			"奸笑",
@@ -1461,13 +1461,13 @@ local pack = {
 	["WeChat_smart"] = {
 		Name = "机智",
 		Shortcodes = {
-			"微信·机智",
+			"V信·机智",
 		},
 	},
 	["WeChat_concerned"] = {
 		Name = "皱眉",
 		Shortcodes = {
-			"微信·皱眉",
+			"V信·皱眉",
 		},
 		Keywords = {
 			"皱眉",
@@ -1480,19 +1480,19 @@ local pack = {
 	["WeChat_yeah!"] = {
 		Name = "耶",
 		Shortcodes = {
-			"微信·耶",
+			"V信·耶",
 		},
 	},
 	["WeChat_onlooker"] = {
 		Name = "吃瓜",
 		Shortcodes = {
-			"微信·吃瓜",
+			"V信·吃瓜",
 		},
 	},
 	["WeChat_goforlt"] = {
 		Name = "加油",
 		Shortcodes = {
-			"微信·加油",
+			"V信·加油",
 		},
 		Keywords = {
 			"努力",
@@ -1501,25 +1501,25 @@ local pack = {
 	["WeChat_sweats"] = {
 		Name = "汗",
 		Shortcodes = {
-			"微信·汗",
+			"V信·汗",
 		},
 	},
 	["WeChat_omg"] = {
 		Name = "天啊",
 		Shortcodes = {
-			"微信·天啊",
+			"V信·天啊",
 		},
 	},
 	["WeChat_emm"] = {
 		Name = "Emm",
 		Shortcodes = {
-			"微信·Emm",
+			"V信·Emm",
 		},
 	},
 	["WeChat_respect"] = {
 		Name = "社会社会",
 		Shortcodes = {
-			"微信·社会社会",
+			"V信·社会社会",
 		},
 		Keywords = {
 			"社会",
@@ -1528,43 +1528,43 @@ local pack = {
 	["WeChat_doge"] = {
 		Name = "旺柴",
 		Shortcodes = {
-			"微信·旺柴",
+			"V信·旺柴",
 		},
 	},
 	["WeChat_noprob"] = {
 		Name = "好的",
 		Shortcodes = {
-			"微信·好的",
+			"V信·好的",
 		},
 	},
 	["WeChat_mybad"] = {
 		Name = "打脸",
 		Shortcodes = {
-			"微信·打脸",
+			"V信·打脸",
 		},
 	},
 	["WeChat_wow"] = {
 		Name = "哇",
 		Shortcodes = {
-			"微信·哇",
+			"V信·哇",
 		},
 	},
 	["WeChat_boring"] = {
 		Name = "翻白眼",
 		Shortcodes = {
-			"微信·翻白眼",
+			"V信·翻白眼",
 		},
 	},
 	["WeChat_666"] = {
 		Name = "666",
 		Shortcodes = {
-			"微信·666",
+			"V信·666",
 		},
 	},
 	["WeChat_letmesee"] = {
 		Name = "让我看看",
 		Shortcodes = {
-			"微信·让我看看",
+			"V信·让我看看",
 		},
 		Keywords = {
 			"探望",
@@ -1580,7 +1580,7 @@ local pack = {
 	["WeChat_sigh"] = {
 		Name = "叹气",
 		Shortcodes = {
-			"微信·叹气",
+			"V信·叹气",
 		},
 		Keywords = {
 			"叹气",
@@ -1596,25 +1596,25 @@ local pack = {
 	["WeChat_hurt"] = {
 		Name = "苦涩",
 		Shortcodes = {
-			"微信·苦涩",
+			"V信·苦涩",
 		},
 	},
 	["WeChat_broken"] = {
 		Name = "裂开",
 		Shortcodes = {
-			"微信·裂开",
+			"V信·裂开",
 		},
 	},
 	["WeChat_lips"] = {
 		Name = "嘴唇",
 		Shortcodes = {
-			"微信·嘴唇",
+			"V信·嘴唇",
 		},
 	},
 	["WeChat_heart"] = {
 		Name = "爱心",
 		Shortcodes = {
-			"微信·爱心",
+			"V信·爱心",
 		},
 		Keywords = {
 			"仁慈",
@@ -1630,7 +1630,7 @@ local pack = {
 	["WeChat_brokenheart"] = {
 		Name = "心碎",
 		Shortcodes = {
-			"微信·心碎",
+			"V信·心碎",
 		},
 		Keywords = {
 			"零碎",
@@ -1646,7 +1646,7 @@ local pack = {
 	["WeChat_hug"] = {
 		Name = "拥抱",
 		Shortcodes = {
-			"微信·拥抱",
+			"V信·拥抱",
 		},
 		Keywords = {
 			"抱",
@@ -1660,19 +1660,19 @@ local pack = {
 	["WeChat_thumbsup"] = {
 		Name = "强",
 		Shortcodes = {
-			"微信·强",
+			"V信·强",
 		},
 	},
 	["WeChat_thumbsdown"] = {
 		Name = "弱",
 		Shortcodes = {
-			"微信·弱",
+			"V信·弱",
 		},
 	},
 	["WeChat_shake"] = {
 		Name = "握手",
 		Shortcodes = {
-			"微信·握手",
+			"V信·握手",
 		},
 		Keywords = {
 			"握手",
@@ -1683,7 +1683,7 @@ local pack = {
 	["WeChat_peace"] = {
 		Name = "胜利",
 		Shortcodes = {
-			"微信·胜利",
+			"V信·胜利",
 		},
 		Keywords = {
 			"胜利",
@@ -1699,13 +1699,13 @@ local pack = {
 	["WeChat_salute"] = {
 		Name = "抱拳",
 		Shortcodes = {
-			"微信·抱拳",
+			"V信·抱拳",
 		},
 	},
 	["WeChat_beckon"] = {
 		Name = "勾引",
 		Shortcodes = {
-			"微信·勾引",
+			"V信·勾引",
 		},
 		Keywords = {
 			"引诱",
@@ -1717,7 +1717,7 @@ local pack = {
 	["WeChat_fist"] = {
 		Name = "拳头",
 		Shortcodes = {
-			"微信·拳头",
+			"V信·拳头",
 		},
 		Keywords = {
 			"拳",
@@ -1727,25 +1727,25 @@ local pack = {
 	["WeChat_ok"] = {
 		Name = "OK",
 		Shortcodes = {
-			"微信·OK",
+			"V信·OK",
 		},
 	},
 	["WeChat_worship"] = {
 		Name = "合十",
 		Shortcodes = {
-			"微信·合十",
+			"V信·合十",
 		},
 	},
 	["WeChat_beer"] = {
 		Name = "啤酒",
 		Shortcodes = {
-			"微信·啤酒",
+			"V信·啤酒",
 		},
 	},
 	["WeChat_coffee"] = {
 		Name = "咖啡",
 		Shortcodes = {
-			"微信·咖啡",
+			"V信·咖啡",
 		},
 		Keywords = {
 			"咖啡",
@@ -1756,7 +1756,7 @@ local pack = {
 	["WeChat_cake"] = {
 		Name = "蛋糕",
 		Shortcodes = {
-			"微信·蛋糕",
+			"V信·蛋糕",
 		},
 		Keywords = {
 			"糕",
@@ -1772,7 +1772,7 @@ local pack = {
 	["WeChat_rose"] = {
 		Name = "玫瑰",
 		Shortcodes = {
-			"微信·玫瑰",
+			"V信·玫瑰",
 		},
 		Keywords = {
 			"香菊片",
@@ -1788,7 +1788,7 @@ local pack = {
 	["WeChat_wilt"] = {
 		Name = "凋谢",
 		Shortcodes = {
-			"微信·凋谢",
+			"V信·凋谢",
 		},
 		Keywords = {
 			"凋谢",
@@ -1804,7 +1804,7 @@ local pack = {
 	["WeChat_cleaver"] = {
 		Name = "菜刀",
 		Shortcodes = {
-			"微信·菜刀",
+			"V信·菜刀",
 		},
 		Keywords = {
 			"砍刀",
@@ -1814,7 +1814,7 @@ local pack = {
 	["WeChat_bomb"] = {
 		Name = "炸弹",
 		Shortcodes = {
-			"微信·炸弹",
+			"V信·炸弹",
 		},
 		Keywords = {
 			"炸弹",
@@ -1830,13 +1830,13 @@ local pack = {
 	["WeChat_poop"] = {
 		Name = "便便",
 		Shortcodes = {
-			"微信·便便",
+			"V信·便便",
 		},
 	},
 	["WeChat_moon"] = {
 		Name = "月亮",
 		Shortcodes = {
-			"微信·月亮",
+			"V信·月亮",
 		},
 		Keywords = {
 			"月亮",
@@ -1852,7 +1852,7 @@ local pack = {
 	["WeChat_sun"] = {
 		Name = "太阳",
 		Shortcodes = {
-			"微信·太阳",
+			"V信·太阳",
 		},
 		Keywords = {
 			"日光",
@@ -1863,7 +1863,7 @@ local pack = {
 	["WeChat_party"] = {
 		Name = "庆祝",
 		Shortcodes = {
-			"微信·庆祝",
+			"V信·庆祝",
 		},
 		Keywords = {
 			"庆祝",
@@ -1874,7 +1874,7 @@ local pack = {
 	["WeChat_gift"] = {
 		Name = "礼物",
 		Shortcodes = {
-			"微信·礼物",
+			"V信·礼物",
 		},
 		Keywords = {
 			"礼品",
@@ -1888,7 +1888,7 @@ local pack = {
 	["WeChat_packet"] = {
 		Name = "红包",
 		Shortcodes = {
-			"微信·红包",
+			"V信·红包",
 		},
 		Keywords = {
 			"贴水",
@@ -1904,19 +1904,19 @@ local pack = {
 	["WeChat_rich"] = {
 		Name = "發",
 		Shortcodes = {
-			"微信·發",
+			"V信·發",
 		},
 	},
 	["WeChat_blessing"] = {
 		Name = "福",
 		Shortcodes = {
-			"微信·福",
+			"V信·福",
 		},
 	},
 	["WeChat_fireworks"] = {
 		Name = "烟花",
 		Shortcodes = {
-			"微信·烟花",
+			"V信·烟花",
 		},
 		Keywords = {
 			"烟火",
@@ -1927,7 +1927,7 @@ local pack = {
 	["WeChat_firecracker"] = {
 		Name = "爆竹",
 		Shortcodes = {
-			"微信·爆竹",
+			"V信·爆竹",
 		},
 		Keywords = {
 			"爆竹",
@@ -1937,19 +1937,19 @@ local pack = {
 	["WeChat_pig"] = {
 		Name = "猪头",
 		Shortcodes = {
-			"微信·猪头",
+			"V信·猪头",
 		},
 	},
 	["WeChat_waddle"] = {
 		Name = "跳跳",
 		Shortcodes = {
-			"微信·跳跳",
+			"V信·跳跳",
 		},
 	},
 	["WeChat_tremble"] = {
 		Name = "发抖",
 		Shortcodes = {
-			"微信·发抖",
+			"V信·发抖",
 		},
 		Keywords = {
 			"发抖",
@@ -1965,7 +1965,7 @@ local pack = {
 	["WeChat_twirl"] = {
 		Name = "转圈",
 		Shortcodes = {
-			"微信·转圈",
+			"V信·转圈",
 		},
 		Keywords = {
 			"悠闲",

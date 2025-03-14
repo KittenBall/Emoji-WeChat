@@ -3,13 +3,13 @@
 ## Interface-Wrath: 30403
 ## Interface-Cata: 40402
 ## Author: KittenBall
-## Version: 20250314142994
+## Version: 20250314224690
 ## Notes: EmojiPack: WeChat
 ## Notes-zhCN: Emoji表情包：微信
 ## DefaultState: enabled
 ## Dependencies: Emoji-Core
-## X-Curse-Project-ID: 
-## X-Wago-ID: 
+## X-Curse-Project-ID: 1220159
+## X-Wago-ID: 56n93WN9
 
 Emoji-WeChat_EN.lua
 Emoji-WeChat_ZH.lua

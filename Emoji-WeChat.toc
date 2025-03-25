@@ -3,7 +3,7 @@
 ## Interface-Wrath: 30403
 ## Interface-Cata: 40402
 ## Author: KittenBall
-## Version: 20250314224690
+## Version: 20250325191301
 ## Notes: EmojiPack: WeChat
 ## Notes-zhCN: Emoji表情包：微信
 ## DefaultState: enabled

@@ -1,9 +1,9 @@
-## Interface: 120000
+## Interface: 120001
 ## Interface-Classic: 11506
 ## Interface-Wrath: 30403
 ## Interface-Cata: 40402
 ## Author: KittenBall
-## Version: 20260202234584
+## Version: 20260216160905
 ## Notes: EmojiPack: WeChat
 ## Notes-zhCN: Emoji表情包：微信
 ## DefaultState: enabled
